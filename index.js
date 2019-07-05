@@ -60,6 +60,7 @@ const start = async () => {
 
   // Sequelize to automatically create the table (or modify it as needed) according to your model definition,
   try {
+    //await sequelize.drop();
     await sequelize.sync();
     console.log('Connection to DB has been established successfully.');
 
