@@ -30,6 +30,7 @@
  * yarn add require-directory
  * yarn add sequelize
  * yarn add pg pg-hstore
+ * yarn add dotenv
  * 
  * Step 2. api implementation sequence
  * 1. interface_adapters/controllers/{Name}Controller.js
