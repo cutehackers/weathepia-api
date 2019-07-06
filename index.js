@@ -23,7 +23,7 @@
  *  eslint-config-airbnb-base \
  *  eslint-plugin-import
  *   
- * yarn add @hapi/hapi @hapi/boom @hapi/good @hapi/good-console @hapi/good-squeeze @hapi/inert @hapi/vision
+ * yarn add @hapi/hapi @hapi/boom @hapi/good @hapi/good-console @hapi/good-squeeze @hapi/inert @hapi/vision @hapi-cors
  * yarn add hapi-swagger
  * yarn add blipp
  * yarn add jsonwebtoken
@@ -31,6 +31,7 @@
  * yarn add sequelize
  * yarn add pg pg-hstore
  * yarn add dotenv
+ * yarn add axios
  * 
  * Step 2. api implementation sequence
  * 1. interface_adapters/controllers/{Name}Controller.js
