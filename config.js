@@ -1,8 +1,11 @@
+// http url format
+// scheme://user@host:port/path?query#fragment
+
 const dotenv = require('dotenv');
 
 dotenv.config();
 
 module.exports = {
-  port: process.env.PORT,
-  serverUrl: process.env.SERVER_URL
+  serverHost: process.env.SERVER_HOST,
+  serverPort: process.env.SERVER_PORT
 };
