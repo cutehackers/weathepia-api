@@ -7,5 +7,5 @@ dotenv.config();
 
 module.exports = {
   serverHost: process.env.SERVER_HOST,
-  serverPort: process.env.SERVER_PORT
+  serverPort: process.env.PORT || 5000
 };
